@@ -1,11 +1,16 @@
 # fiap_fase_one_project_aurora_siger
 
 [whitepaper](whitepaper.md)
-[System Designer](use_case.md)
-[System Designer](sequence.md)
-[System Designer](state.md)
-[System Designer](transition.md)
-[System Designer](methods.md)
+
+[System Designer Use Case](use_case.md)
+
+[System Designer Sequence](sequence.md)
+
+[System Designer State](state.md)
+
+[System Designer Transition](transition.md)
+
+[System Designer methods](methods.md)
 
 ## Enviroment 
 
