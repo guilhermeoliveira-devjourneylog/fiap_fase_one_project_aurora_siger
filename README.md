@@ -12,6 +12,8 @@
 
 [System Designer methods](methods.md)
 
+[Go No Go Notebook](go_no_go.html)
+
 ## Enviroment 
 
 ### Install
@@ -47,3 +49,7 @@ pip install -r requirements.txt
 ## Solution in access file notebook 
 
 go_no_go.ipynb
+
+## Generate pdf notebook from html
+
+jupyter nbconvert --to html go_no_go.ipynb
