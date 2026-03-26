@@ -7517,6 +7517,212 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Version 1.0
+Author: Guilherme Rodrigues Oliveira
+Field: Computer Science | Embedded Systems | Autonomy | Critical Safety</p>
+<ol>
+<li>Executive Summary</li>
+</ol>
+<p>The Aurora mission proposes the design and simulation of an embedded computational system responsible for the autonomous validation of critical pre-launch parameters within a simulated aerospace environment.</p>
+<ol start="2">
+<li>Engineering Problem</li>
+</ol>
+<p>During launch, multiple parameters must be simultaneously validated:</p>
+<ul>
+<li><p>Internal and external temperatures</p>
+</li>
+<li><p>Tank pressures</p>
+</li>
+<li><p>Structural integrity</p>
+</li>
+<li><p>Available energy</p>
+</li>
+<li><p>Status of critical modules</p>
+</li>
+</ul>
+<p>Failure in any of these checks may result in mission loss.</p>
+<p>system is required to:</p>
+<ul>
+<li><p>Interpret telemetry data</p>
+</li>
+<li><p>Execute automated validation</p>
+</li>
+<li><p>Compute energy feasibility</p>
+</li>
+<li><p>AI Assist Analysis for identifie possibles anomalies and risc suggest</p>
+</li>
+</ul>
+<ol start="3">
+<li>System Architecture
+3.1 Layers</li>
+</ol>
+<p>1 Sensor layer</p>
+<p>Responsible for acquiring physical data and converting it into digital signals.</p>
+<p>2 Processing layer</p>
+<p>Executes process data and algorithms for control system.</p>
+<p>3 Energy layer</p>
+<p>Calculates real-time autonomy accounting for losses.</p>
+<p>4 AI layer</p>
+<p>Acts as a strategic assistant capable of detecting patterns, highlighting risks, and accelerating decision-making.</p>
+<ol start="5">
+<li>Decision Algorithm</li>
+</ol>
+<p>The system employs structured conditional logic based on predefined safe ranges to determine launch readiness.</p>
+<ol start="6">
+<li>Sustainability and Ethics</li>
+</ol>
+<p>Space exploration requires responsible technology. Key considerations include:</p>
+<ul>
+<li><p>Energy efficiency</p>
+</li>
+<li><p>Minimization of computational waste</p>
+</li>
+<li><p>Algorithmic transparency</p>
+</li>
+<li><p>Auditability of AI</p>
+</li>
+<li><p>Technological governance</p>
+</li>
+<li><p>Embedded automation must remain explainable and responsible.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=99b35fe2">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Goals">Goals<a class="anchor-link" href="#Goals">¶</a></h2><p>System Validation for Take-Off</p>
+<h3 id="Actors">Actors<a class="anchor-link" href="#Actors">¶</a></h3><ul>
+<li><p>Mission Operator</p>
+</li>
+<li><p>System sensors</p>
+</li>
+<li><p>Model AI</p>
+</li>
+<li><p>Energy System</p>
+</li>
+</ul>
+<h3 id="Use-Case">Use Case<a class="anchor-link" href="#Use-Case">¶</a></h3><ul>
+<li><p>Get Telemetry</p>
+</li>
+<li><p>Parameter Validation</p>
+</li>
+<li><p>Detect Anomalies</p>
+</li>
+<li><p>Authorize Take Off</p>
+</li>
+<li><p>Abort Mission</p>
+</li>
+<li><p>Log</p>
+</li>
+</ul>
+<h3 id="Concept-Structure">Concept Structure<a class="anchor-link" href="#Concept-Structure">¶</a></h3><p>Operator -- Start program</p>
+<p>System -- Get Telemetry</p>
+<p>System -- Validation Condition</p>
+<p>System -- Calc Energy</p>
+<p>System -- AI Assist</p>
+<p>System -- Decision Take Off</p>
+<p>System -- Log</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cd78bc5c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Scenario:-Execution">Scenario: Execution<a class="anchor-link" href="#Scenario:-Execution">¶</a></h2><p>Operator -- System: program</p>
+<p>System -- Telemetry: get data</p>
+<p>Telemetry -- System: ingestion data for dataset</p>
+<p>System -- Process --  pre-data</p>
+<p>System -- Validation -- initial energy</p>
+<p>System -- Validation -- initial available</p>
+<p>System -- Validation -- energy usable</p>
+<p>System -- Validation -- initial autonomy</p>
+<p>System -- Validation -- adjusted energy usable</p>
+<p>System -- Validation -- adjusted autonomy</p>
+<p>System -- Validation -- thermal loss factor</p>
+<p>Validation -- ModelAI -- Assist Result</p>
+<p>System -- Log</p>
+<p>System -- Operator: Go or No Go</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=2de71503">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="State">State<a class="anchor-link" href="#State">¶</a></h2><p>Standby</p>
+<p>Get Data</p>
+<p>In Validation</p>
+<p>Approve</p>
+<p>Abort</p>
+<p>Pre Take-Off</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=51a35c61">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Transition">Transition<a class="anchor-link" href="#Transition">¶</a></h2><p>Standby -- Get Data</p>
+<p>Get Data -- Validation</p>
+<p>In Validation -- Approve</p>
+<p>In Validation -- Abort</p>
+<p>Approve -- Pre Take-Off</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=4b7aac1d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Methods">Methods<a class="anchor-link" href="#Methods">¶</a></h2><p>[Start]</p>
+<p>load telemetry</p>
+<p>calculate_energy_metrics</p>
+<p>calculate_system_metrics</p>
+<p>calculate_loss_metrics</p>
+<p>calculate_correlations</p>
+<p>export_results {
+energy_metrics,
+system_metrics,
+loss_df,
+corr_matrix
+}</p>
+<p>decision_engine {
+energy_rules,
+loss_rules,
+correlation_rules,
+system_rules,
+evaluate
+}</p>
+<p>[Final]</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=38ace96a">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>This script simulates spacecraft telemetry data, integrating information regarding temperature, pressure, energy levels, and the status of critical systems.
 The telemetry is organized in a tabular format (DataFrame) and saved as a CSV file for subsequent computational analysis.</p>
 </div>
