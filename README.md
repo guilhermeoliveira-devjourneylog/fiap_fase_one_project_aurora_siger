@@ -14,6 +14,8 @@
 
 [Go No Go Notebook](go_no_go.html)
 
+[Solution PDF Go No Go](solution_go_no_go.pdf)
+
 ## Enviroment 
 
 ### Install
