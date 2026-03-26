@@ -5,6 +5,7 @@
 [System Designer](sequence.md)
 [System Designer](state.md)
 [System Designer](transition.md)
+[System Designer](methods.md)
 
 ## Enviroment 
 
