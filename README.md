@@ -1,6 +1,7 @@
 # fiap_fase_one_project_aurora_siger
 
-[whitepaper](xref:whitepaper.md)
+[whitepaper](whitepaper.md)
+[System Designer](use_cases.md)
 
 ## Enviroment 
 
