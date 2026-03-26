@@ -2,6 +2,7 @@
 
 [whitepaper](whitepaper.md)
 [System Designer](use_case.md)
+[System Designer](sequence.md)
 
 ## Enviroment 
 
