@@ -29,9 +29,15 @@ System Validation for Take-Off
 ### Concept Structure
 
 Operator -- Start program
+
 System -- Get Telemetry
+
 System -- Validation Condition
+
 System -- Calc Energy
+
 System -- AI Assist 
+
 System -- Decision Take Off
+
 System -- Log
