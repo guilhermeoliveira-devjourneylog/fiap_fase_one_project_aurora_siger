@@ -3,6 +3,8 @@
 [whitepaper](whitepaper.md)
 [System Designer](use_case.md)
 [System Designer](sequence.md)
+[System Designer](state.md)
+[System Designer](transition.md)
 
 ## Enviroment 
 
