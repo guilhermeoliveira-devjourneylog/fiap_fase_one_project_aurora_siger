@@ -1,48 +1,48 @@
 {
     "energy": {
-        "initial_energy_pct": 100.0,
-        "energy_available_kwh": 500.0,
-        "energy_usable_kwh": 460.0,
-        "initial_autonomy_h": 3.8333333333333335,
-        "adjusted_energy_usable_kwh": 369.2213547036513,
-        "adjusted_autonomy_h": 3.0768446225304276,
-        "thermal_loss_factor": 1.2458651
+        "initial_energy_pct": 99.75,
+        "energy_available_kwh": 498.75,
+        "energy_usable_kwh": 458.85,
+        "initial_autonomy_h": 3.82375,
+        "adjusted_energy_usable_kwh": 342.1587446558436,
+        "adjusted_autonomy_h": 2.85132287213203,
+        "thermal_loss_factor": 1.3410442
     },
     "system": {
-        "avg_pressure_bar": 230.00657,
+        "avg_pressure_bar": 230.01862,
         "fuel_consumption_index": 216.0,
         "structural_ok": false,
         "systems_ok": false,
         "mission_status": "\u274c LAUNCH ABORTED"
     },
     "loss": {
-        "thermal": 24.586509999999997,
-        "mechanical": 10.026935700000001,
+        "thermal": 34.10442,
+        "mechanical": 9.97625724,
         "aux": 2.991
     },
     "correlation": {
         "thermal_loss": {
             "thermal_loss": 1.0,
-            "mechanical_loss": 0.06302974210296648,
-            "auxiliary_load": 0.07562310558816246,
-            "energy_level_pct": -0.9880333080623465
+            "mechanical_loss": -0.1255632642290166,
+            "auxiliary_load": -0.0015117346016599168,
+            "energy_level_pct": -0.9877948187157347
         },
         "mechanical_loss": {
-            "thermal_loss": 0.06302974210296648,
+            "thermal_loss": -0.1255632642290166,
             "mechanical_loss": 1.0,
-            "auxiliary_load": -0.0335915100688278,
-            "energy_level_pct": 0.004103575354841703
+            "auxiliary_load": -0.02840269772578918,
+            "energy_level_pct": -0.0008104847213980125
         },
         "auxiliary_load": {
-            "thermal_loss": 0.07562310558816246,
-            "mechanical_loss": -0.0335915100688278,
+            "thermal_loss": -0.0015117346016599168,
+            "mechanical_loss": -0.02840269772578918,
             "auxiliary_load": 1.0,
-            "energy_level_pct": -0.07442560441252757
+            "energy_level_pct": 0.0018684625139918248
         },
         "energy_level_pct": {
-            "thermal_loss": -0.9880333080623465,
-            "mechanical_loss": 0.004103575354841703,
-            "auxiliary_load": -0.07442560441252757,
+            "thermal_loss": -0.9877948187157347,
+            "mechanical_loss": -0.0008104847213980125,
+            "auxiliary_load": 0.0018684625139918248,
             "energy_level_pct": 1.0
         }
     }
